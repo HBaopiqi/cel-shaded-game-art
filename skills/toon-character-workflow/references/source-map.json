@@ -1,0 +1,656 @@
+{
+  "schema_version": 1,
+  "page_numbering": "1-based PDF file page order, Chinese reference edition",
+  "total_pages": 330,
+  "meaning": "Coverage mapping is not runtime or licensing verification.",
+  "sources": [
+    {
+      "id": "M",
+      "title": "卡通风格角色建模TIPS.pdf",
+      "page_count": 90,
+      "sections": [
+        {
+          "start": 1,
+          "end": 6,
+          "kind": "context",
+          "topic": "导言与章节页",
+          "references": []
+        },
+        {
+          "start": 7,
+          "end": 21,
+          "kind": "technical",
+          "topic": "比例、剪影、原画匹配与早期姿态",
+          "references": [
+            "01-modeling-face.md"
+          ]
+        },
+        {
+          "start": 22,
+          "end": 22,
+          "kind": "context",
+          "topic": "面部章节页",
+          "references": []
+        },
+        {
+          "start": 23,
+          "end": 59,
+          "kind": "technical",
+          "topic": "多角度脸、嘴、眉眼、下颌与修正",
+          "references": [
+            "01-modeling-face.md"
+          ]
+        },
+        {
+          "start": 60,
+          "end": 60,
+          "kind": "context",
+          "topic": "法线章节页",
+          "references": []
+        },
+        {
+          "start": 61,
+          "end": 84,
+          "kind": "technical",
+          "topic": "法线机制、三种控制与局限",
+          "references": [
+            "02-normals.md"
+          ]
+        },
+        {
+          "start": 85,
+          "end": 85,
+          "kind": "context",
+          "topic": "结语页",
+          "references": []
+        },
+        {
+          "start": 86,
+          "end": 87,
+          "kind": "technical",
+          "topic": "跨制作环节理解与迭代",
+          "references": [
+            "01-modeling-face.md",
+            "08-validation-handoff.md"
+          ]
+        },
+        {
+          "start": 88,
+          "end": 90,
+          "kind": "context",
+          "topic": "招募信息",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "S",
+      "title": "面向蒙皮的角色建模TIPS.pdf",
+      "page_count": 45,
+      "sections": [
+        {
+          "start": 1,
+          "end": 6,
+          "kind": "context",
+          "topic": "导言与范围",
+          "references": []
+        },
+        {
+          "start": 7,
+          "end": 11,
+          "kind": "technical",
+          "topic": "蒙皮定义与易操作建模",
+          "references": [
+            "03-topology-skinning.md"
+          ]
+        },
+        {
+          "start": 12,
+          "end": 12,
+          "kind": "context",
+          "topic": "LBS章节页",
+          "references": []
+        },
+        {
+          "start": 13,
+          "end": 23,
+          "kind": "technical",
+          "topic": "50%位置插值陷阱",
+          "references": [
+            "03-topology-skinning.md"
+          ]
+        },
+        {
+          "start": 24,
+          "end": 24,
+          "kind": "context",
+          "topic": "关节章节页",
+          "references": []
+        },
+        {
+          "start": 25,
+          "end": 28,
+          "kind": "technical",
+          "topic": "折叠、梯形与内外侧布线",
+          "references": [
+            "03-topology-skinning.md"
+          ]
+        },
+        {
+          "start": 29,
+          "end": 29,
+          "kind": "context",
+          "topic": "轴心章节页",
+          "references": []
+        },
+        {
+          "start": 30,
+          "end": 33,
+          "kind": "technical",
+          "topic": "刚性区域与pivot实验",
+          "references": [
+            "03-topology-skinning.md",
+            "04-bone-placement.md"
+          ]
+        },
+        {
+          "start": 34,
+          "end": 34,
+          "kind": "context",
+          "topic": "其他技巧章节页",
+          "references": []
+        },
+        {
+          "start": 35,
+          "end": 36,
+          "kind": "technical",
+          "topic": "多层网格与极限姿势",
+          "references": [
+            "03-topology-skinning.md"
+          ]
+        },
+        {
+          "start": 37,
+          "end": 37,
+          "kind": "context",
+          "topic": "绑定章节页",
+          "references": []
+        },
+        {
+          "start": 38,
+          "end": 42,
+          "kind": "technical",
+          "topic": "绑定与渐变扭转",
+          "references": [
+            "03-topology-skinning.md",
+            "05-rigging.md"
+          ]
+        },
+        {
+          "start": 43,
+          "end": 43,
+          "kind": "context",
+          "topic": "结语页",
+          "references": []
+        },
+        {
+          "start": 44,
+          "end": 44,
+          "kind": "technical",
+          "topic": "跨维度诊断",
+          "references": [
+            "03-topology-skinning.md",
+            "08-validation-handoff.md"
+          ]
+        },
+        {
+          "start": 45,
+          "end": 45,
+          "kind": "context",
+          "topic": "招募信息",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "面向动作设计的骨骼放置TIPS.pdf",
+      "page_count": 60,
+      "sections": [
+        {
+          "start": 1,
+          "end": 5,
+          "kind": "context",
+          "topic": "导言与目录",
+          "references": []
+        },
+        {
+          "start": 6,
+          "end": 8,
+          "kind": "technical",
+          "topic": "适用边界、晚改成本与辅助骨演示条件",
+          "references": [
+            "04-bone-placement.md",
+            "05-rigging.md"
+          ]
+        },
+        {
+          "start": 9,
+          "end": 9,
+          "kind": "context",
+          "topic": "重要性章节页",
+          "references": []
+        },
+        {
+          "start": 10,
+          "end": 15,
+          "kind": "technical",
+          "topic": "默认姿态不足以验收骨架",
+          "references": [
+            "04-bone-placement.md"
+          ]
+        },
+        {
+          "start": 16,
+          "end": 17,
+          "kind": "context",
+          "topic": "身体部位章节页",
+          "references": []
+        },
+        {
+          "start": 18,
+          "end": 28,
+          "kind": "technical",
+          "topic": "髋膝踝趾与腿长",
+          "references": [
+            "04-bone-placement.md"
+          ]
+        },
+        {
+          "start": 29,
+          "end": 29,
+          "kind": "context",
+          "topic": "躯干章节页",
+          "references": []
+        },
+        {
+          "start": 30,
+          "end": 37,
+          "kind": "technical",
+          "topic": "重心、脊椎与独立骨盆",
+          "references": [
+            "04-bone-placement.md"
+          ]
+        },
+        {
+          "start": 38,
+          "end": 38,
+          "kind": "context",
+          "topic": "上身章节页",
+          "references": []
+        },
+        {
+          "start": 39,
+          "end": 56,
+          "kind": "technical",
+          "topic": "肩臂腕手指头颈",
+          "references": [
+            "04-bone-placement.md"
+          ]
+        },
+        {
+          "start": 57,
+          "end": 57,
+          "kind": "context",
+          "topic": "方法章节页",
+          "references": []
+        },
+        {
+          "start": 58,
+          "end": 58,
+          "kind": "technical",
+          "topic": "参考真实运动、迭代与极限检查",
+          "references": [
+            "04-bone-placement.md",
+            "08-validation-handoff.md"
+          ]
+        },
+        {
+          "start": 59,
+          "end": 59,
+          "kind": "context",
+          "topic": "结语页",
+          "references": []
+        },
+        {
+          "start": 60,
+          "end": 60,
+          "kind": "technical",
+          "topic": "模型骨骼蒙皮共同决定动作",
+          "references": [
+            "04-bone-placement.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R",
+      "title": "角色绑定入门TIPS.pdf",
+      "page_count": 56,
+      "sections": [
+        {
+          "start": 1,
+          "end": 7,
+          "kind": "context",
+          "topic": "导言与概念章节页",
+          "references": []
+        },
+        {
+          "start": 8,
+          "end": 10,
+          "kind": "technical",
+          "topic": "控制器骨骼网格分层",
+          "references": [
+            "05-rigging.md"
+          ]
+        },
+        {
+          "start": 11,
+          "end": 11,
+          "kind": "context",
+          "topic": "架构章节页",
+          "references": []
+        },
+        {
+          "start": 12,
+          "end": 18,
+          "kind": "technical",
+          "topic": "复用、角色特例与缩放限制",
+          "references": [
+            "05-rigging.md"
+          ]
+        },
+        {
+          "start": 19,
+          "end": 20,
+          "kind": "context",
+          "topic": "约束引介",
+          "references": []
+        },
+        {
+          "start": 21,
+          "end": 31,
+          "kind": "technical",
+          "topic": "FK/IK与三类约束、Up参照",
+          "references": [
+            "05-rigging.md"
+          ]
+        },
+        {
+          "start": 32,
+          "end": 34,
+          "kind": "context",
+          "topic": "进阶案例章节页",
+          "references": []
+        },
+        {
+          "start": 35,
+          "end": 37,
+          "kind": "technical",
+          "topic": "半旋转与翻转风险",
+          "references": [
+            "05-rigging.md"
+          ]
+        },
+        {
+          "start": 38,
+          "end": 38,
+          "kind": "context",
+          "topic": "扭转章节页",
+          "references": []
+        },
+        {
+          "start": 39,
+          "end": 42,
+          "kind": "technical",
+          "topic": "提取并渐变分配扭转",
+          "references": [
+            "05-rigging.md"
+          ]
+        },
+        {
+          "start": 43,
+          "end": 43,
+          "kind": "context",
+          "topic": "防凹陷章节页",
+          "references": []
+        },
+        {
+          "start": 44,
+          "end": 52,
+          "kind": "technical",
+          "topic": "髋部局部外撑",
+          "references": [
+            "05-rigging.md"
+          ]
+        },
+        {
+          "start": 53,
+          "end": 53,
+          "kind": "technical",
+          "topic": "实现方式选择",
+          "references": [
+            "05-rigging.md"
+          ]
+        },
+        {
+          "start": 54,
+          "end": 54,
+          "kind": "context",
+          "topic": "结语页",
+          "references": []
+        },
+        {
+          "start": 55,
+          "end": 55,
+          "kind": "technical",
+          "topic": "绑定与模型联合改善",
+          "references": [
+            "05-rigging.md"
+          ]
+        },
+        {
+          "start": 56,
+          "end": 56,
+          "kind": "context",
+          "topic": "招募信息",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "O",
+      "title": "CEDEC2024卡通描边线条控制技术.pdf",
+      "page_count": 79,
+      "sections": [
+        {
+          "start": 1,
+          "end": 8,
+          "kind": "context",
+          "topic": "导言与描边目的引介",
+          "references": []
+        },
+        {
+          "start": 9,
+          "end": 12,
+          "kind": "technical",
+          "topic": "识别与强调",
+          "references": [
+            "06-outline-engineering.md"
+          ]
+        },
+        {
+          "start": 13,
+          "end": 13,
+          "kind": "context",
+          "topic": "方法章节页",
+          "references": []
+        },
+        {
+          "start": 14,
+          "end": 17,
+          "kind": "technical",
+          "topic": "后处理与背面法取舍",
+          "references": [
+            "06-outline-engineering.md"
+          ]
+        },
+        {
+          "start": 18,
+          "end": 19,
+          "kind": "context",
+          "topic": "原理章节与历史背景",
+          "references": []
+        },
+        {
+          "start": 20,
+          "end": 25,
+          "kind": "technical",
+          "topic": "剔除、外扩与网格复用",
+          "references": [
+            "06-outline-engineering.md"
+          ]
+        },
+        {
+          "start": 26,
+          "end": 26,
+          "kind": "context",
+          "topic": "多Pass章节页",
+          "references": []
+        },
+        {
+          "start": 27,
+          "end": 34,
+          "kind": "technical",
+          "topic": "VS/PS、绘制流程与管线边界",
+          "references": [
+            "06-outline-engineering.md"
+          ]
+        },
+        {
+          "start": 35,
+          "end": 37,
+          "kind": "context",
+          "topic": "工程技巧章节页",
+          "references": []
+        },
+        {
+          "start": 38,
+          "end": 38,
+          "kind": "technical",
+          "topic": "实时预览一致性",
+          "references": [
+            "06-outline-engineering.md"
+          ]
+        },
+        {
+          "start": 39,
+          "end": 47,
+          "kind": "technical",
+          "topic": "线宽、距离与FOV",
+          "references": [
+            "06-outline-engineering.md"
+          ]
+        },
+        {
+          "start": 48,
+          "end": 51,
+          "kind": "technical",
+          "topic": "顶点线宽控制",
+          "references": [
+            "06-outline-engineering.md",
+            "07-outline-art.md"
+          ]
+        },
+        {
+          "start": 52,
+          "end": 55,
+          "kind": "technical",
+          "topic": "深度与局部遮挡",
+          "references": [
+            "06-outline-engineering.md",
+            "07-outline-art.md"
+          ]
+        },
+        {
+          "start": 56,
+          "end": 62,
+          "kind": "technical",
+          "topic": "硬边、双法线与切线前提",
+          "references": [
+            "06-outline-engineering.md"
+          ]
+        },
+        {
+          "start": 63,
+          "end": 63,
+          "kind": "technical",
+          "topic": "工程控制总结",
+          "references": [
+            "06-outline-engineering.md"
+          ]
+        },
+        {
+          "start": 64,
+          "end": 66,
+          "kind": "context",
+          "topic": "美术控制引介",
+          "references": []
+        },
+        {
+          "start": 67,
+          "end": 69,
+          "kind": "technical",
+          "topic": "禁线与多层外壳穿插",
+          "references": [
+            "07-outline-art.md"
+          ]
+        },
+        {
+          "start": 70,
+          "end": 76,
+          "kind": "technical",
+          "topic": "闭合、浮线、管口与主动线",
+          "references": [
+            "07-outline-art.md"
+          ]
+        },
+        {
+          "start": 77,
+          "end": 77,
+          "kind": "technical",
+          "topic": "美术与渲染共同控制",
+          "references": [
+            "07-outline-art.md"
+          ]
+        },
+        {
+          "start": 78,
+          "end": 78,
+          "kind": "context",
+          "topic": "结语页",
+          "references": []
+        },
+        {
+          "start": 79,
+          "end": 79,
+          "kind": "technical",
+          "topic": "背面法与艺术判断",
+          "references": [
+            "07-outline-art.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

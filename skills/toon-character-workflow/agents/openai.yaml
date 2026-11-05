@@ -1,0 +1,4 @@
+interface:
+  display_name: "三渲二角色制作"
+  short_description: "从造型、骨骼与蒙皮到法线、描边和引擎验收的三渲二角色工作流"
+  default_prompt: "使用 $toon-character-workflow 检查角色的造型、形变与描边，给出适用方案和可验证的修改步骤。"
