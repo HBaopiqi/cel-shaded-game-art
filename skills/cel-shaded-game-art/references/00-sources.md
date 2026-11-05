@@ -26,4 +26,4 @@
 
 技术分享、原讲义、中文译稿、插图、游戏资产和商标各归其权利人。HBaopiqi 独立编写和组织了本项目的技能指令、参考笔记及其索引，并以 CC BY 4.0 提供这些内容。复用时可沿用以下署名，修改过的版本请补上改动说明。
 
-> 《三渲二角色制作 · Toon Character Workflow》，HBaopiqi 整理。原讲者为 Arc System Works 的本村・C・純也。[项目来源](https://github.com/HBaopiqi/toon-character-workflow) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+> 《Cel-Shaded Game Art｜三渲二游戏美术》，HBaopiqi 整理。原讲者为 Arc System Works 的本村・C・純也。[项目来源](https://github.com/HBaopiqi/cel-shaded-game-art) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)

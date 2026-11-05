@@ -22,5 +22,5 @@ jobs:
           python-version: ${{ matrix.python }}
       - run: python scripts/validate_package.py
       - run: python scripts/build_release.py
-      - run: python -m zipfile -e dist/toon-character-workflow.zip dist/extracted
-      - run: python scripts/validate_package.py dist/extracted/toon-character-workflow
+      - run: python -m zipfile -e dist/cel-shaded-game-art.zip dist/extracted
+      - run: python scripts/validate_package.py dist/extracted/cel-shaded-game-art

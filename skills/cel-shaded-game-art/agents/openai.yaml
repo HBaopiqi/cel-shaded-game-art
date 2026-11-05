@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cel-Shaded Game Art｜三渲二游戏美术"
+  short_description: "面向三渲二游戏角色的建模、绑定与实时着色，提供制作指导和技术答疑"
+  default_prompt: "使用 $cel-shaded-game-art 为侧视动作游戏制作一名三渲二剑士，检查举剑过顶时的剪影与肩部形变。"

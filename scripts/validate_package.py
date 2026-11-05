@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 EXPECTED = {"M": 90, "S": 45, "B": 60, "R": 56, "O": 79}
-SKILL_NAME = "toon-character-workflow"
+SKILL_NAME = "cel-shaded-game-art"
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SKILL_ROOT = REPO_ROOT / "skills" / SKILL_NAME
 REFERENCE_FILES = (

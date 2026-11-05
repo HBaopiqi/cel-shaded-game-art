@@ -1,4 +1,0 @@
-interface:
-  display_name: "三渲二角色制作"
-  short_description: "制作三渲二角色时兼顾造型、形变和描边，解答建模、绑定与着色问题"
-  default_prompt: "使用 $toon-character-workflow 在 Blender 里做一个能举剑的三渲二短发剑士。"
