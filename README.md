@@ -1,10 +1,15 @@
 # 三渲二角色制作 · Toon Character Workflow
 
-一个供 AI 助手使用的角色制作与排错 skill，由 HBaopiqi 根据 Arc System Works 技术美术本村・C・純也的五份分享独立整理。它把《GUILTY GEAR》系列的制作经验整理成八个可单独查阅的主题，适合建模师、绑定师和技术美术拿着自己的资产来问。
+对能操作 Blender 的 AI 说「帮我做个三渲二角色」，它会在制作时主动考虑造型、关节形变、阴影和描边，也能解答你在建模、绑定和着色中遇到的问题。
 
-**从一个具体问题开始。** 比如角色站着时膝盖正常，一蹲就变薄，继续刷权重还有用吗？这套 skill 会先让你锁定出问题的动作帧，在副本里试关节轴心，再比较同一顶点完全随大腿和完全随小腿时的位置。在双骨线性混合蒙皮下，如果目标轮廓落在两点连线之外，继续调这两个权重就到不了。此时才值得比较改布线和加辅助骨的成本。[拓扑与蒙皮](skills/toon-character-workflow/references/03-topology-skinning.md)
+安装后，在支持自动选用技能的 agent 里直接说：
 
-*A Chinese-first Agent Skill for building and troubleshooting cel-shaded game characters. Install it below and ask in your preferred language. A standalone Markdown edition is available for assistants that accept documents.*
+- **「用 Blender 给我做一个 3渲2 的短发剑士，能把剑举过头顶。」** 当你的 agent 已能操作 Blender，它会把相关经验用在制作中，比如先用抬臂姿势检查肩部和袖子的形变，再细化模型。
+- **「我想让头发的阴影连成整块，可以从球面传递法线吗？」** 助手会解释这种做法怎样改变受光。如果发梢也沿这组法线生成描边，它还会提醒你检查外轮廓，并给出对照方法。[法线与阴影](skills/toon-character-workflow/references/02-normals.md)
+
+本项目由 HBaopiqi 根据 Arc System Works 技术美术本村・C・純也关于《GUILTY GEAR》系列的五份分享独立整理。
+
+*Ask your Blender-capable agent to make a cel-shaded character, or ask a character-art question. The skill brings modeling, deformation, shading and outline decisions into both kinds of requests.*
 
 ## 安装
 
@@ -41,7 +46,7 @@ gh skill install HBaopiqi/toon-character-workflow toon-character-workflow --agen
 
 ## 第一次使用
 
-在目标项目新开一次会话。可以直接描述症状，也可以用客户端的显式调用方式，例如 Codex 的 `$toon-character-workflow` 或 Claude Code 的 `/toon-character-workflow`。带上目标镜头、失败姿势和一张对照图，通常就足以开始排查。
+在目标项目新开一次会话，直接描述想做的角色或想问的问题。也可以按客户端的方式点名调用，例如 Codex 的 `$toon-character-workflow` 或 Claude Code 的 `/toon-character-workflow`。排查已有模型时，目标镜头和出问题的姿势最有助于定位。
 
 | 可以这样问 | 查阅方向 |
 | --- | --- |
