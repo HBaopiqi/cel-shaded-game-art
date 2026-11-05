@@ -7,9 +7,10 @@ permissions:
 jobs:
   package:
     strategy:
+      fail-fast: false
       matrix:
         include:
-          - os: ubuntu-latest
+          - os: ubuntu-24.04
             python: '3.9'
           - os: windows-latest
             python: '3.12'
